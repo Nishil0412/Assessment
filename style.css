@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+body{
+    background-color: lightgray;
 }
 h1{
     text-align: center;
@@ -9,9 +13,9 @@ h1{
     color: red;
 }
 .container{
-    height: 105vh ;
+    height: 100%;
     width: 100%;
-    background-color: rgb(235, 204, 143);
+    
 }
 label{
     font-weight: 900;
@@ -38,11 +42,11 @@ input[type=tel]{
     margin-top: 20px;
 }
 input[type=radio]{
-   height: 40px;
-   width: 20px;
-   margin-bottom: 20px;
+   height: 15px;
+   width: 15px;
+   /* margin-bottom: 10px; */
    margin-left: 140px;
-   margin-top: 20px;
+   /* margin-top: 20px; */
 }
 #male{
     margin-top: 20px;
@@ -60,7 +64,7 @@ input[type=date]{
 textarea{
     margin-left: 124px;
     height: 100px;
-    width: 400px;
+    width: 600px;
     margin-top: 20px;
 }
 
